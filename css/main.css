@@ -109,9 +109,23 @@ textarea {
           box-sizing: border-box;
 }
 
+.wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
 
+.main-content {
+	width: 100%;
+	max-width: 100%;
+	margin: 0px auto;
+}
 
-
+#home-image {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
 
 
 
