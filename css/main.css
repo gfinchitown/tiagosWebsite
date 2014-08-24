@@ -112,6 +112,11 @@ textarea {
 body {
 	font-family: 'Muli', sans-serif;
 }
+
+/* ==========================================================================
+   Home Page styles
+   ========================================================================== */
+
 .wrapper {
 	width: 100%;
 	max-width: 1000px;
@@ -122,12 +127,27 @@ body {
 	width: 100%;
 	max-width: 100%;
 	margin: 0px auto;
+	position: relative;
 }
 
 #home-image {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+}
+
+nav {
+	margin: 0;
+	height: 30px; 
+	background-color: #7c6a5c;
+}
+
+nav ul li {
+	padding-left: 15px;
+	display: inline-block;
+	color: #000;
+	font-size: 1.25em;
+	font-weight: 200;
 }
 
 
