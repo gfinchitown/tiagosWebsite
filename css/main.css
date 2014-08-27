@@ -129,6 +129,8 @@ body {
 	max-width: 100%;
 	margin: 0px auto;
 	position: relative;
+	border-top: 8px solid #2d231c;
+	border-bottom: 8px solid #2d231c;
 }
 
 #home-image {
@@ -143,11 +145,11 @@ nav {
 }
 
 nav ul li {
-	padding: 5px 0px;
+	padding: 2px 0px;
 	color: #000;
 	font-size: 1.5em;
 	font-weight: 200;
-	border-bottom: 2px solid #443c36;
+	border-bottom: 1px solid #443c36;
 	text-align: center;
 }
 
@@ -164,6 +166,23 @@ nav ul li:last-child {
 	left: 6%;
 }
 
+footer {
+	height: 125px;
+	background-color: #9e9690;
+}
+
+.social-icons{
+	text-align: center;
+	padding-top: 10px;
+}
+.social {
+	width: 15%;
+	padding: 5px;
+}
+
+.contact {
+	text-align: center;
+}
 
 
 
