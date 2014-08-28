@@ -141,10 +141,6 @@ nav ul li {
 	text-align: center;
 }
 
-nav ul li:last-child {
-	border-bottom: none;
-}
-
 
 /* ==========================================================================
    Home Page styles
@@ -328,7 +324,7 @@ footer {
 		background-color: #9e9690;
 		}
 
-	nav ul li {
+	nav ul a li {
 		display: inline-block;
 		padding: 5px 10px;
 		color: #000;
@@ -336,10 +332,6 @@ footer {
 		font-weight: 200;
 		border-right: 1px solid #443c36;
 		border-bottom: none;
-		}
-
-		nav ul li:last-child {
-			border-right: none;
 		}
 
 	.social {
