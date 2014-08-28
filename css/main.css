@@ -141,6 +141,37 @@ nav ul li {
 	text-align: center;
 }
 
+/* ==========================================================================
+   Footer styles
+   ========================================================================== */
+   
+footer {
+	height: 200px;
+	background-color: #9e9690;
+}
+
+.social-icons{
+	text-align: center;
+	padding-top: 10px;
+}
+.social {
+	width: 15%;
+	padding: 5px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.copy {
+	font-size: .60em;
+	clear: both;
+	text-align: center;
+} 
 
 /* ==========================================================================
    Home Page styles
@@ -180,35 +211,26 @@ nav ul li {
 	width: 100%;
 }
 
-footer {
-	height: 200px;
-	background-color: #9e9690;
-}
-
-.social-icons{
-	text-align: center;
-	padding-top: 10px;
-}
-.social {
-	width: 15%;
-	padding: 5px;
-}
-
-.contact {
-	text-align: center;
-}
-
-.copyright {
-	text-align: center;
-}
-
-.copy {
-	font-size: .60em;
-	clear: both;
-	text-align: center;
-}
-
-
+/* ==========================================================================
+   Bio Page Styles
+   ========================================================================== */
+   
+   .bio {
+	   width: 90%;
+	   margin: 0px auto;
+   }
+	 .bio-head {	
+		 font-size: 1.5em;
+		 color: #3c2f26;
+		 border-bottom: 2px solid #3c2f26;
+	 }
+	 
+	 .bio-copy {
+		 color: #000;
+		 font-size: 1em;
+		 line-height: 1.5em;
+		 margin-bottom: 5px;
+	 }
 
 
 /* ==========================================================================
@@ -338,6 +360,13 @@ footer {
 		width: 10%;
 		padding: 5px;
 		}
+		
+	.bio-copy {
+		 color: #000;
+		 font-size: 1.15em;
+		 line-height: 1.5em;
+	 }
+
 
 
 }
@@ -370,6 +399,12 @@ footer {
 			font-size: 1.15em;
 			text-align: right;
 			padding-right: 20px;
+		}
+		
+		.bio-copy {
+		 color: #000;
+		 font-size: 1.20em;
+		 line-height: 1.60em;
 		}
 
 }
