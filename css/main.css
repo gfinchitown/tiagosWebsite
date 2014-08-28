@@ -114,6 +114,33 @@ body {
 	font-size: 16px;
 }
 
+a {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   Navigation styles
+   ========================================================================== */
+
+nav {
+	margin: 0; 
+	background-color: #9e9690;
+}
+
+nav ul li {
+	padding: 2px 0px;
+	color: #000;
+	font-size: 1.5em;
+	font-weight: 200;
+	border-bottom: 1px solid #443c36;
+	text-align: center;
+}
+
+nav ul li:last-child {
+	border-bottom: none;
+}
+
+
 /* ==========================================================================
    Home Page styles
    ========================================================================== */
@@ -139,24 +166,6 @@ body {
 	height: auto;
 }
 
-nav {
-	margin: 0; 
-	background-color: #9e9690;
-}
-
-nav ul li {
-	padding: 2px 0px;
-	color: #000;
-	font-size: 1.5em;
-	font-weight: 200;
-	border-bottom: 1px solid #443c36;
-	text-align: center;
-}
-
-nav ul li:last-child {
-	border-bottom: none;
-}
-
 #homepage-demo-link{
 	margin: 0;
 	width: 40%;
@@ -171,7 +180,7 @@ nav ul li:last-child {
 }
 
 footer {
-	height: 125px;
+	height: 200px;
 	background-color: #9e9690;
 }
 
@@ -185,6 +194,16 @@ footer {
 }
 
 .contact {
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.copy {
+	font-size: .60em;
+	clear: both;
 	text-align: center;
 }
 
@@ -298,8 +317,64 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 485px) {
+  nav {
+		margin: 0; 
+		background-color: #9e9690;
+		}
+
+	nav ul li {
+		display: inline-block;
+		padding: 5px 10px;
+		color: #000;
+		font-size: 1.25em;
+		font-weight: 200;
+		border-right: 1px solid #443c36;
+		border-bottom: none;
+		}
+
+		nav ul li:last-child {
+			border-right: none;
+		}
+
+	.social {
+		width: 10%;
+		padding: 5px;
+		}
+
+
+}
+
+@media only screen and (min-width: 660px) {
+
+	footer {
+		height: 125px;
+	}
+
+	.social {
+		width: 15%;
+		padding: 5px;
+		}
+		
+	.social-icons{
+		width: 50%;
+		display: inline-block;
+		text-align: left;
+		padding-top: 10px;
+		padding-left: 20px;
+		}
+		
+		.contact-info {
+			display: inline-block;
+			float: right;
+		}	
+		
+		.contact {
+			font-size: 1.15em;
+			text-align: right;
+			padding-right: 20px;
+		}
+
 }
 
 @media print,
