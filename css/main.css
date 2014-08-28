@@ -215,6 +215,10 @@ footer {
    Bio Page Styles
    ========================================================================== */
    
+   .logo-type {
+	   text-align: center;
+	   font-weight: 200;
+   }
    .bio {
 	   width: 90%;
 	   margin: 0px auto;
