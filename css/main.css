@@ -164,6 +164,7 @@ nav ul li {
 	text-align: center;
 }
 
+
 /* ==========================================================================
    Footer styles
    ========================================================================== */
@@ -240,8 +241,12 @@ footer {
    ========================================================================== */
    
    .bio {
-	   width: 90%;
-	   margin: 0px auto 20px auto;
+	   width: 100%;
+	   margin: -2px 0px 0px 0px;
+	   padding-left: 40px;
+	   padding-right: 40px;
+	   border-top: 8px solid #2d231c;
+		 border-bottom: 8px solid #2d231c; 
    }
 	 .bio-head {	
 		 font-size: 1.5em;
@@ -260,7 +265,12 @@ footer {
 /* ==========================================================================
    Demo Page Styles
    ========================================================================== */
-   
+
+	 .demo-reels {
+	 	 margin: -2px 0px 0px 0px;
+		 border-top: 8px solid #2d231c;
+		 border-bottom: 8px solid #2d231c; 
+	 }
 	.embed-container { 
 		position: relative;
 		margin: 20px auto; 
