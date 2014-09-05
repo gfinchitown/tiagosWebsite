@@ -407,7 +407,6 @@ footer {
    ========================================================================== */
 
 @media only screen and (min-width: 485px) {
-
 	
 	.logo-type {
 		border-bottom: none;
@@ -429,6 +428,10 @@ footer {
 		width: 10%;
 		padding: 5px;
 		}
+	
+	.bio {
+		margin-top: 107px;
+	}
 		
 	.bio-copy {
 		 color: #000;
