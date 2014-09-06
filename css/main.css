@@ -430,11 +430,21 @@ footer {
 		width: 10%;
 		padding: 5px;
 		}
+	.bg-image-container{
+		max-width: 1000px;
+		background-image: url("../img/bioPageBG.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 	
 	.bio {
-		margin-top: 107px;
+		padding: 10px 50px 20px 50px;
+		background-color: rgba(256,256,256,0.7);
 	}
-		
 	.bio-copy {
 		 color: #000;
 		 font-size: 1.10em;
