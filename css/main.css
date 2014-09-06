@@ -168,6 +168,11 @@ nav ul li {
 nav ul a:last-child li {
 	border-bottom: none;
 }
+
+.active {
+	font-weight: bold;
+	color: #fff;
+}
 /* ==========================================================================
    Footer styles
    ========================================================================== */
@@ -430,7 +435,8 @@ footer {
 		width: 10%;
 		padding: 5px;
 		}
-	.bg-image-container{
+		
+	.bg-image-bio{
 		max-width: 1000px;
 		background-image: url("../img/bioPageBG.jpg");
 		background-repeat: no-repeat;
@@ -450,6 +456,23 @@ footer {
 		 color: #000;
 		 font-size: 1.10em;
 		 line-height: 1.5em;
+	 }
+	 
+	 .bg-image-resume {
+		 max-width: 1000px;
+		 background-image: url("../img/resumePageBG.jpg");
+		 background-repeat: no-repeat;
+		 background-position: center center;
+		 background-attachment: fixed;
+		 -webkit-background-size: cover;
+		 -moz-background-size: cover;
+		 -o-background-size: cover;
+		 background-size: cover;
+	 }
+	 
+	 .resume-copy {
+		 padding: 10px 50px 20px 50px;
+		 background-color: rgba(256,256,256,0.7)
 	 }
 
 
