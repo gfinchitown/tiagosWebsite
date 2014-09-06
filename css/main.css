@@ -435,6 +435,7 @@ footer {
 		background-image: url("../img/bioPageBG.jpg");
 		background-repeat: no-repeat;
 		background-position: center center;
+		background-attachment: fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -443,7 +444,7 @@ footer {
 	
 	.bio {
 		padding: 10px 50px 20px 50px;
-		background-color: rgba(256,256,256,0.7);
+		background-color: rgba(256,256,256,0.8);
 	}
 	.bio-copy {
 		 color: #000;
