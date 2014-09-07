@@ -310,7 +310,11 @@ footer {
 /* ==========================================================================
    Resume Page Styles
    ========================================================================== */
-   
+  
+  .resume-copy {
+	  padding: 0px 20px;
+  } 
+  
 .resume-heading {
 	font-size: 1.5em;
 	color: #3c2f26;
@@ -323,10 +327,10 @@ footer {
 	padding-right: 20px;
 }
 
-.theater {
+.roles {
 	margin-bottom: 15px;
 }
-.theater li {
+.roles li {
 	list-style: none;
 }
    
@@ -555,9 +559,17 @@ footer {
 
 @media only screen and (min-width: 800px) {
 
-		.theater li {
+		#stats li {
+			font-size: 1.20em;
+		}
+		.roles li {
 			display: inline-block;
 			padding-right: 20px;
+			font-size: 1.20em;
+		}
+		
+		.resume-para {
+			font-size: 1.20em;
 		}
 
 
