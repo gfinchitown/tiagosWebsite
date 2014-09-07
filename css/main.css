@@ -275,9 +275,7 @@ footer {
    ========================================================================== */
 
 	 .demo-reels {
-	 	 margin: -2px 0px 0px 0px;
-		 border-top: 8px solid #2d231c;
-		 border-bottom: 8px solid #2d231c; 
+	 	 margin: -2px 0px 0px 0px; 
 	 }
 	.embed-container { 
 		position: relative;
@@ -302,10 +300,7 @@ footer {
 /* ==========================================================================
    Gallery Page Styles
    ========================================================================== */
-.gallery-container {
-	border-top: 8px solid #2d231c;
-	border-bottom: 8px solid #2d231c; 
-}
+
 
 /* ==========================================================================
    Resume Page Styles
