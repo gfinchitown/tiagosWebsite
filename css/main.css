@@ -296,6 +296,16 @@ footer {
 /* ==========================================================================
    Gallery Page Styles
    ========================================================================== */
+   
+   .gallery-header {
+	  margin: 10px 0px 5px 0px;
+   }
+   .gallery-header img {
+	 	width: 100%;
+	 	max-width: 1000px;
+	 	height: auto;  
+   }
+   
 #gallery li {
 		float: left;
 		width: 45%;
