@@ -15,6 +15,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -51,47 +52,47 @@
 						<ul id="gallery">
 						
 							<li>
-								<a href="img/gallery/headShot1.jpg"><img class="gallery-image" alt="head shot one" src="img/gallery/headShot1.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/headShot1.jpg"><img class="gallery-image" alt="head shot one" src="img/gallery/headShot1.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/headShot2.jpg"><img class="gallery-image" alt="head shot two" src="img/gallery/headShot2.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/headShot2.jpg"><img class="gallery-image" alt="head shot two" src="img/gallery/headShot2.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/headShot3.jpg"><img class="gallery-image" alt="head shot three" src="img/gallery/headShot3.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/headShot3.jpg"><img class="gallery-image" alt="head shot three" src="img/gallery/headShot3.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/onStage1.jpg"><img class="gallery-image" alt="on stage one" src="img/gallery/onStage1.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/onStage1.jpg"><img class="gallery-image" alt="on stage one" src="img/gallery/onStage1.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/onStage2.jpg"><img class="gallery-image" alt="on stage two" src="img/gallery/onStage2.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/onStage2.jpg"><img class="gallery-image" alt="on stage two" src="img/gallery/onStage2.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/onStage3.jpg"><img class="gallery-image" alt="on stage three" src="img/gallery/onStage3.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/onStage3.jpg"><img class="gallery-image" alt="on stage three" src="img/gallery/onStage3.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/onStage4.jpg"><img class="gallery-image" alt="on stage four" src="img/gallery/onStage4.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/onStage4.jpg"><img class="gallery-image" alt="on stage four" src="img/gallery/onStage4.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/soccer1.jpg"><img class="gallery-image" alt="soccer one" src="img/gallery/soccer1.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/soccer1.jpg"><img class="gallery-image" alt="soccer one" src="img/gallery/soccer1.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/soccer2.jpg"><img class="gallery-image" alt="soccer two" src="img/gallery/soccer2.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/soccer2.jpg"><img class="gallery-image" alt="soccer two" src="img/gallery/soccer2.jpg"></a>
 							</li>
 			
 							<li>
-								<a href="img/gallery/soccer3.jpg"><img class="gallery-image" alt="soccer three" src="img/gallery/soccer3.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/soccer3.jpg"><img class="gallery-image" alt="soccer three" src="img/gallery/soccer3.jpg"></a>
 							</li>
 							
 							<li>
-								<a href="img/gallery/UCareAd.jpg"><img class="gallery-image" alt="UCare Advertisement" src="img/gallery/UCareAd.jpg"></a>
+								<a class="fancybox" rel="group" href="img/gallery/UCareAd.jpg"><img class="gallery-image" alt="UCare Advertisement" src="img/gallery/UCareAd.jpg"></a>
 							</li>
 										
 						</ul>
@@ -124,7 +125,13 @@
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
         <script src="js/plugins.js"></script>
+        <script type="text/javascript">
+					$(document).ready(function() {
+						$(".fancybox").fancybox();
+						});
+				</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
