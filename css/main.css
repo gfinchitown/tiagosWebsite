@@ -334,14 +334,14 @@ footer {
    Resume Page Styles
    ========================================================================== */
    
- .resume-header {
-  margin: 10px 0px 5px 0px;
- }
- .resume-header img {
- 	width: 100%;
- 	max-width: 1000px;
- 	height: auto;  
- }
+	 .resume-header {
+	  margin: 10px 0px 5px 0px;
+	 }
+	 .resume-header img {
+	 	width: 100%;
+	 	max-width: 1000px;
+	 	height: auto;  
+	 }
 
   
 .resume-copy {
@@ -529,7 +529,10 @@ footer {
 		 background-repeat: no-repeat;
 		 background-position: center center;
 		 background-attachment: fixed;
-		 background-size: cover;
+		 -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		 
 		 		 	 }
 	 
