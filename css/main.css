@@ -356,6 +356,8 @@ footer {
 .roles li {
 	list-style: none;
 }
+
+
    
    
    
@@ -528,13 +530,7 @@ footer {
 		 padding: 10px 50px 20px 50px;
 		 background-color: rgba(256,256,256,0.7)
 	 }
-
-	 #gallery li {
-		 float: left;
-		 width: 20%;
-		 margin: 2.5%;
-	}
-
+	 
 }
 
 @media only screen and (min-width: 660px) {
@@ -584,17 +580,35 @@ footer {
 @media only screen and (min-width: 800px) {
 
 		#stats li {
-			font-size: 1.20em;
+			font-size: 1.15em;
+		}
+		
+		.roles {
+			text-align: justify:
 		}
 		.roles li {
 			display: inline-block;
-			padding-right: 20px;
-			font-size: 1.20em;
+			width: 32%;
+			font-size: 1.15em;
 		}
 		
-		.resume-para {
-			font-size: 1.20em;
+		.roles:after {
+			content: "";
+			width: 100%;
+			display: inline-block;
 		}
+
+		.resume-para {
+			font-size: 1.15em;
+		}
+		
+		#gallery li {
+		 float: left;
+		 width: 20%;
+		 margin: 2.5%;
+		}
+
+		
 
 
 }
