@@ -333,6 +333,16 @@ footer {
 /* ==========================================================================
    Resume Page Styles
    ========================================================================== */
+   
+ .resume-header {
+  margin: 10px 0px 5px 0px;
+ }
+ .resume-header img {
+ 	width: 100%;
+ 	max-width: 1000px;
+ 	height: auto;  
+ }
+
   
 .resume-copy {
 	padding: 0px 20px;
@@ -341,7 +351,7 @@ footer {
 .resume-heading {
 	font-size: 1.5em;
 	color: #3c2f26;
-	margin: 20px 0px 5px 0px;
+	margin: 10px 0px 5px 0px;
 	border-bottom: 2px solid #2d231c;
 }
 
@@ -515,20 +525,18 @@ footer {
 	 }
 	 
 	 .bg-image-resume {
-		 max-width: 1000px;
-		 background-image: url("../img/resumePageBG.jpg");
+	 	 background-image: url("../img/resumePageBG.jpg");
 		 background-repeat: no-repeat;
 		 background-position: center center;
 		 background-attachment: fixed;
-		 -webkit-background-size: cover;
-		 -moz-background-size: cover;
-		 -o-background-size: cover;
 		 background-size: cover;
-	 }
+		 
+		 		 	 }
 	 
 	 .resume-copy {
-		 padding: 10px 50px 20px 50px;
-		 background-color: rgba(256,256,256,0.7)
+		 padding: 0px 50px 20px 50px;
+		 max-width: 1000px;
+		 background-color: rgba(256,256,256,0.7)		 
 	 }
 	 
 }
@@ -588,7 +596,8 @@ footer {
 		}
 		.roles li {
 			display: inline-block;
-			width: 32%;
+			padding-left: 2%;
+			width: 32.5%;
 			font-size: 1.15em;
 		}
 		
