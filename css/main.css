@@ -150,6 +150,15 @@ header {
 /* ==========================================================================
    Navigation styles
    ========================================================================== */
+
+.logo {
+	margin: 0px auto;
+	width: 90%;
+}
+   
+.logo img {
+	margin-top: 10px;
+}
    
 nav {
 	margin: 0px;
@@ -222,7 +231,6 @@ footer {
 	max-width: 100%;
 	margin: 0px auto;
 	position: relative;
-	border-top: 8px solid #2d231c;
 	border-bottom: 8px solid #2d231c;
 }
 
@@ -498,18 +506,31 @@ footer {
 
 @media only screen and (min-width: 485px) {
 	
-	.logo-type {
-		border-bottom: none;
+	.logo {
+		display: inline-block;
+		margin-left: 10px;
+		width: 28%;
+		float: left;
 	}
-  nav ul {
-		text-align: center
-		}
+
+	.logo img {
+		margin-top: 12px;
+		width: 100%;
+	}
+	nav {
+		display: inline-block;
+		float: right;
+	}
+	
+	nav ul {
+		margin-top: 18px;
+	}
 
 	nav ul a li {
 		display: inline-block;
-		padding: 5px 15px;
+		padding: 0px 5px;
 		color: #000;
-		font-size: 1.25em;
+		font-size: 1em;
 		font-weight: 200;
 		border-bottom: none;
 		}
@@ -573,6 +594,12 @@ footer {
 
 @media only screen and (min-width: 660px) {
 
+	nav ul a li {
+		padding: 0px 10px;
+		font-size: 1.25em;
+		}
+
+
 	footer {
 		height: 125px;
 	}
@@ -616,6 +643,12 @@ footer {
 }
 
 @media only screen and (min-width: 800px) {
+
+		nav ul a li {
+		margin-top: 8px;
+		padding: 0px 15px;
+		font-size: 1.35em;
+		}
 
 		#stats li {
 			font-size: 1.15em;
