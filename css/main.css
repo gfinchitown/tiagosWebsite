@@ -335,7 +335,8 @@ footer {
    ========================================================================== */
    
 	 .resume-header {
-	  margin: 10px 0px 5px 0px;
+	  margin: 0px 0px 5px 0px;
+	  padding-top: 10px;
 	 }
 	 .resume-header img {
 	 	width: 100%;
@@ -352,6 +353,7 @@ footer {
 	font-size: 1.5em;
 	color: #3c2f26;
 	margin: 10px 0px 5px 0px;
+	padding-top: 20px;
 	border-bottom: 2px solid #2d231c;
 }
 
