@@ -266,6 +266,18 @@ footer {
 /* ==========================================================================
    Bio Page Styles
    ========================================================================== */
+   .bio-header {
+	  margin: 0px 0px 5px 0px;
+	  padding-top: 10px;
+	  display: none;
+    visibility: hidden;
+	 }
+	 .bio-header img {
+	 	width: 100%;
+	 	max-width: 1000px;
+	 	height: auto;  
+	 }
+
    
    .bio {
 	   width: 100%;
@@ -337,12 +349,13 @@ footer {
 	 .resume-header {
 	  margin: 0px 0px 5px 0px;
 	  padding-top: 10px;
-	 }
+	  }
+	  
 	 .resume-header img {
 	 	width: 100%;
 	 	max-width: 1000px;
 	 	height: auto;  
-	 }
+	  }
 
   
 .resume-copy {
@@ -515,6 +528,13 @@ footer {
 		-o-background-size: cover;
 		background-size: cover;
 	}
+	
+	.bio-header {
+	  margin: 0px 0px 5px 0px;
+	  padding-top: 10px;
+	  display: block;
+	  visibility: visible;
+	 }
 	
 	.bio {
 		padding: 10px 50px 20px 50px;
