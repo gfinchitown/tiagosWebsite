@@ -349,6 +349,8 @@ footer {
 	 .resume-header {
 	  margin: 0px 0px 5px 0px;
 	  padding-top: 10px;
+	  display: none;
+    visibility: hidden;
 	  }
 	  
 	 .resume-header img {
@@ -530,8 +532,6 @@ footer {
 	}
 	
 	.bio-header {
-	  margin: 0px 0px 5px 0px;
-	  padding-top: 10px;
 	  display: block;
 	  visibility: visible;
 	 }
@@ -555,8 +555,13 @@ footer {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		 
-		 		 	 }
+		}
+		
+		.resume-header {
+	  display: block;;
+    visibility: visible;;
+	  }
+
 	 
 	 .resume-copy {
 		 padding: 0px 50px 20px 50px;
