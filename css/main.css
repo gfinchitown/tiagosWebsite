@@ -309,13 +309,9 @@ footer {
    Contact Page Styles
    ========================================================================== */
 
-.contact-header {
-	padding-top: 15px;
-}
-
 .contact-header img {
+	margin-top: 25px;
 	width: 100%;
-	height: auto;
 }
 
 .contact-list {
