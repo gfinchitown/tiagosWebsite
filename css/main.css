@@ -202,14 +202,6 @@ footer {
 	padding: 5px;
 }
 
-.contact {
-	text-align: center;
-}
-
-.copyright {
-	text-align: center;
-}
-
 .copy {
 	font-size: .60em;
 	clear: both;
@@ -311,12 +303,26 @@ footer {
 /* ==========================================================================
    Contact Page Styles
    ========================================================================== */
-.contact-content {
-	background-color: #e6dfda;
-}
 
 .contact-header {
-	padding-top: 10px;
+	padding-top: 15px;
+}
+
+.contact-list {
+	width: 95%;
+	margin: 25px auto 0px;
+	padding-bottom: 25px;
+}
+
+.contact-list-items li {
+	text-align: center;
+	list-style: none;
+	padding: 10px 0px;
+}
+
+li .contact-bold {
+	font-size: 1.25em;
+	font-weight: bold;
 }
 			
 /* ==========================================================================
@@ -360,18 +366,18 @@ footer {
    Resume Page Styles
    ========================================================================== */
    
-	 .resume-header {
-	  margin: 0px 0px 5px 0px;
-	  padding-top: 10px;
-	  display: none;
-    visibility: hidden;
-	  }
+ .resume-header {
+  margin: 0px 0px 5px 0px;
+  padding-top: 10px;
+  display: none;
+  visibility: hidden;
+  }
 	  
-	 .resume-header img {
-	 	width: 100%;
-	 	max-width: 1000px;
-	 	height: auto;  
-	  }
+ .resume-header img {
+ 	width: 100%;
+ 	max-width: 1000px;
+ 	height: auto;  
+  }
 
   
 .resume-copy {
@@ -686,7 +692,15 @@ footer {
 		 margin: 2.5%;
 		}
 
-		
+		.contact-list-items li {
+			font-size: 1.15em;
+		}
+	
+	li .contact-bold {
+		font-size: 1.4em;
+		font-weight: bold;
+		}
+
 
 
 }
