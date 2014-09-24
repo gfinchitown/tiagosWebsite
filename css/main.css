@@ -313,6 +313,11 @@ footer {
 	padding-top: 15px;
 }
 
+.contact-header img {
+	width: 100%;
+	height: auto;
+}
+
 .contact-list {
 	width: 95%;
 	margin: 25px auto 0px;
