@@ -138,15 +138,6 @@ header {
 	border-bottom: 8px solid #2d231c;
 }
 
-.logo {
-	margin-top: -20px;
-}
-.logo-type {
-	text-align: center;
-	font-weight: 100;
-	border-bottom: 1px solid #443c36;
-}
-
 .first-letter {
 	font-weight: 700;
 }
@@ -157,7 +148,7 @@ header {
 
 .logo {
 	margin: 0px auto;
-	width: 90%;
+	width: 60%;
 }
    
 .logo img {
@@ -172,7 +163,7 @@ nav {
 nav ul li {
 	padding: 2px 0px;
 	color: #000;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-weight: 200;
 	text-align: center;
 	border-bottom: 1px solid #443c36;
@@ -233,7 +224,6 @@ footer {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
-	border-bottom: 8px solid #2d231c;
 }
 
 .videos-header {
