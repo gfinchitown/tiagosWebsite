@@ -116,7 +116,11 @@ body {
 
 .wrapper {
 	background-color: #e6dfda;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px auto;
 }
+
 
 a {
 	text-decoration: none;
@@ -217,12 +221,6 @@ footer {
    Home Page styles
    ========================================================================== */
 
-.wrapper {
-	width: 100%;
-	max-width: 1000px;
-	margin: 0px auto;
-}
-
 .main-content {
 	width: 100%;
 	max-width: 100%;
@@ -310,7 +308,7 @@ footer {
    ========================================================================== */
 
 .contact-header img {
-	margin-top: 25px;
+	margin-top: 15px;
 	width: 100%;
 }
 
@@ -335,14 +333,15 @@ li .contact-bold {
    Gallery Page Styles
    ========================================================================== */
    
-   .gallery-header {
-	  margin: 10px 0px 5px 0px;
-   }
-   .gallery-header img {
-	 	width: 100%;
-	 	max-width: 1000px;
-	 	height: auto;  
-   }
+ .gallery-header {
+  margin: 10px 0px 5px 0px;
+ }
+   
+ .gallery-header img {
+ 	width: 100%;
+ 	max-width: 1000px;
+ 	height: auto;  
+ }
    
 #gallery li {
 		float: left;
@@ -366,26 +365,23 @@ li .contact-bold {
 	max-width: 100%;
 }
 
-
-
 /* ==========================================================================
    Resume Page Styles
    ========================================================================== */
    
- .resume-header {
-  margin: 0px 0px 5px 0px;
-  padding-top: 10px;
-  display: none;
-  visibility: hidden;
-  }
-	  
- .resume-header img {
- 	width: 100%;
- 	max-width: 1000px;
- 	height: auto;  
-  }
-
+.resume-header {
+	margin: 0px 0px 5px 0px;
+	padding-top: 10px;
+	display: none;
+	visibility: hidden;
+}
   
+.resume-header img {
+	width: 100%;
+	max-width: 1000px;
+	height: auto;  
+}
+
 .resume-copy {
 	padding: 0px 20px;
 } 
@@ -409,11 +405,6 @@ li .contact-bold {
 .roles li {
 	list-style: none;
 }
-
-
-   
-   
-   
 
 /* ==========================================================================
    Helper classes
@@ -517,9 +508,7 @@ li .contact-bold {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+  Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 485px) {
