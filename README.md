@@ -1,0 +1,3 @@
+Website created for actor, Tiago Ferreira, in Hollywood CA.
+
+Site was created with HTML 5 Boilerplate as a foundation. A simple navigation pattern was chosen that didn't require javascript. Site is responsive. Per numerous casting directior's suggestions we put all of the demo reels on the first page as this would be most important to them and others in the entertainment industry. A somewhat neutral, yet masculine, color scheme was chosen so as to not detract from from the content and to express Tiago's personality.
