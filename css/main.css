@@ -128,7 +128,7 @@ a {
 }
 
 a:hover {
-	color: #203595;
+	color: #fff;
 }
 
 header {
@@ -315,6 +315,10 @@ iframe {
 	text-align: center;
 	list-style: none;
 	padding: 10px 0px;
+}
+
+.contact-list-items li a:hover {
+	color: #9e9690;
 }
 
 li .contact-bold {
