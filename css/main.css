@@ -150,11 +150,11 @@ header {
 	margin: 0px auto;
 	width: 60%;
 }
-   
+
 .logo img {
 	margin-top: 10px;
 }
-   
+
 nav {
 	margin: 0px;
 	background-color: #9e9690;
@@ -180,7 +180,7 @@ nav ul li:last-child {
 /* ==========================================================================
    Footer styles
    ========================================================================== */
-   
+
 footer {
 	width: 100%;
 	height: 105px;
@@ -206,7 +206,7 @@ footer {
 	margin-top: 15px;
 	font-size: .60em;
 	text-align: center;
-} 
+}
 
 /* ==========================================================================
    Home Page styles
@@ -235,25 +235,25 @@ footer {
 	height: auto;
 }
 
-.embed-container { 
+.embed-container {
 		position: relative;
-		margin: 0px auto 20px auto; 
-		padding-bottom: 56.25%; 
-		height: 0; 
-		overflow: hidden; 
-		max-width: 90%; 
-		height: auto; 
-		} 
-	
-.embed-container iframe, 
-.embed-container object, 
-.embed-container embed { 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 100%; 
-	height: 100%; 
-	} 
+		margin: 0px auto 20px auto;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		max-width: 90%;
+		height: auto;
+		}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
 
 iframe {
 	border: none;
@@ -271,23 +271,23 @@ iframe {
 	 .bio-header img {
 	 	width: 100%;
 	 	max-width: 1000px;
-	 	height: auto;  
+	 	height: auto;
 	 }
 
-   
+
    .bio {
 	   width: 100%;
 	   margin: -2px 0px 0px 0px;
 	   padding-left: 40px;
-	   padding-right: 40px; 
+	   padding-right: 40px;
    }
-   
-	 .bio-head {	
+
+	 .bio-head {
 		 font-size: 1.5em;
 		 color: #3c2f26;
 		 border-bottom: 2px solid #2d231c;
 	 }
-	 
+
 	 .bio-copy {
 		 color: #000;
 		 font-size: 1em;
@@ -325,33 +325,33 @@ li .contact-bold {
 	font-size: 1.25em;
 	font-weight: bold;
 }
-			
+
 /* ==========================================================================
    Gallery Page Styles
    ========================================================================== */
-   
+
  .gallery-header {
   margin: 10px 0px 5px 0px;
  }
-   
+
  .gallery-header img {
  	width: 100%;
  	max-width: 1000px;
- 	height: auto;  
+ 	height: auto;
  }
-   
+
 #gallery li {
 		float: left;
 		width: 45%;
 		margin: 2.5%;
 		}
-			
+
 #overlay img {
 		margin-top: 60%;
 		width: 70%;
-		border: 4px solid #fff; 
+		border: 4px solid #fff;
 		}
-  
+
 #gallery {
 	margin: 0 auto 0 auto;
   padding: 0;
@@ -365,24 +365,24 @@ li .contact-bold {
 /* ==========================================================================
    Resume Page Styles
    ========================================================================== */
-   
+
 .resume-header {
 	margin: 0px 0px 5px 0px;
 	padding-top: 10px;
 	display: none;
 	visibility: hidden;
 }
-  
+
 .resume-header img {
 	width: 100%;
 	max-width: 1000px;
-	height: auto;  
+	height: auto;
 }
 
 .resume-copy {
 	padding: 0px 20px;
-} 
-  
+}
+
 .resume-heading {
 	font-size: 1.5em;
 	color: #3c2f26;
@@ -489,7 +489,7 @@ li .contact-bold {
    ========================================================================== */
 
 @media only screen and (min-width: 485px) {
-	
+
 	.logo {
 		display: inline-block;
 		margin-left: 10px;
@@ -505,7 +505,7 @@ li .contact-bold {
 		display: inline-block;
 		float: right;
 	}
-	
+
 	nav ul {
 		margin-top: 18px;
 	}
@@ -518,11 +518,11 @@ li .contact-bold {
 		font-weight: 200;
 		border-bottom: none;
 		}
-		
+
 	footer {
 		height: 120px;
 	}
-		
+
 	.bg-image-bio{
 		max-width: 1000px;
 		background-image: url("../img/bioPageBG.jpg");
@@ -534,12 +534,12 @@ li .contact-bold {
 		-o-background-size: cover;
 		background-size: cover;
 	}
-	
+
 	.bio-header {
 	  display: block;
 	  visibility: visible;
 	 }
-	
+
 	.bio {
 		padding: 10px 50px 20px 50px;
 		background-color: rgba(256,256,256,0.8);
@@ -549,7 +549,7 @@ li .contact-bold {
 		 font-size: 1.10em;
 		 line-height: 1.5em;
 	 }
-	 
+
 	 .bg-image-resume {
 	 	 background-image: url("../img/resumePageBG.jpg");
 		 background-repeat: no-repeat;
@@ -560,19 +560,19 @@ li .contact-bold {
 		-o-background-size: cover;
 		background-size: cover;
 		}
-		
+
 		.resume-header {
 	  display: block;;
     visibility: visible;;
 	  }
 
-	 
+
 	 .resume-copy {
 		 padding: 0px 50px 20px 50px;
 		 max-width: 1000px;
-		 background-color: rgba(256,256,256,0.7)		 
+		 background-color: rgba(256,256,256,0.7)
 	 }
-	 
+
 }
 
 @media only screen and (min-width: 660px) {
@@ -586,27 +586,27 @@ li .contact-bold {
 	footer {
 		height: 140px;
 	}
-	
+
 	.social-icons {
 		width: 60%;
 		margin: 0px auto;
 	}
-			
+
 	.contact-info {
 		display: inline-block;
 		float: right;
-	}	
-		
+	}
+
 	.contact {
 		font-size: 1.15em;
 		text-align: right;
 		padding-right: 20px;
 	}
-	
+
 	.copy {
 		font-size: 1em;
 	}
-	
+
 	.bio-copy {
 	 color: #000;
 	 font-size: 1.20em;
@@ -623,52 +623,52 @@ li .contact-bold {
 		padding: 0px 8px;
 		font-size: 1.40em;
 		}
-		
+
 		footer {
 			height: 160px;
 		}
-		
+
 		.social-icons {
 			width: 60%;
 			margin: 0px auto;
 		}
-		
+
 
 		#stats li {
 			font-size: 1em;
 		}
-		
+
 		.roles {
 			text-align: justify;
 		}
-		
+
 		.roles li {
 			display: inline-block;
-			padding-left: 2%;
-			width: 32.5%;
-			font-size: 1em;
+			padding-left: 0;
+			width: 32%;
+			font-size: .95em;
 		}
-		
+
 		.roles:after {
 			content: "";
 			width: 100%;
 			display: inline-block;
 		}
-	
+
 		.resume-para {
 			font-size: 1em;
 		}
-		
+
 		#gallery li {
 		 float: left;
 		 width: 20%;
 		 margin: 2.5%;
 		}
-	
+
 		.contact-list-items li {
 			font-size: 1.15em;
 		}
-	
+
 	li .contact-bold {
 		font-size: 1.4em;
 		font-weight: bold;
